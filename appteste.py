@@ -8,7 +8,7 @@ import datetime
 
 # Conexão com banco
 def conectar_banco():
-    return pymysql.connect(host="", port=, user="", password="", database="", charset='')
+    return pymysql.connect(host="186.224.105.220", port=3306, user="panavarr", password="331sbA8g?", database="panavarr_", charset='utf8mb4')
 
 # Salvar imagem no banco
 def salvar_imagem_no_banco(imagem, nota_fiscal, info_envio):
